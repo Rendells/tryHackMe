@@ -1,2 +1,31 @@
 Which team focuses on defensive security?
 Blue Team //<--- This is case sensetive
+
+  Security Operations Center (SOC), where we cover Threat Intelligence
+Digital Forensics and Incident Response (DFIR), where we also cover Malware Analysis
+
+  Digital Forensics and Incident Response (DFIR)
+This section is about Digital Forensics and Incident Response (DFIR), and we will cover:
+Digital Forensics
+Incident Response
+Malware Analysis
+
+The four major phases of the incident response process are:
+  Preparation: 
+This requires a team trained and ready to handle incidents. Ideally, various measures are put in place to prevent incidents from happening in the first place.
+  Detection and Analysis: 
+The team has the necessary resources to detect any incident; moreover, it is essential to further analyze any detected incident to learn about its severity.
+  Containment, Eradication, and Recovery: 
+Once an incident is detected, it is crucial to stop it from affecting other systems, eliminate it, and recover the affected systems. For instance, when we notice that a system is infected with a computer virus, we would like to stop (contain) the virus from spreading to other systems, clean (eradicate) the virus, and ensure proper system recovery.
+  Post-Incident Activity: 
+After successful recovery, a report is produced, and the learned lesson is shared to prevent similar future incidents.
+
+  What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
+Security Operations Center
+  
+  What does DFIR stand for?
+Digital Forensics and Incident Response
+  
+  Which kind of malware requires the user to pay money to regain access to their files?
+Ransomware
+  
