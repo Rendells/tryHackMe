@@ -1,0 +1,49 @@
+Networks are simply things connected. For example, your friendship circle: you are all connected becasuse of similar interest, hobbies, skills and sorts.
+Networks can be found in all walks of life:
+
+A city's public transportation system
+Infrastructure such as the national power grid for electricity
+Meeting and greeting your neighbours
+Postal systems for sending letters and parcels
+
+Networks are integrated into our everyday life. Be it gathering data for the weather, delivering electricity to homes or even determining who has the right of way at a road. 
+Because networks are so embedded in the modern-day, networking is an essential concept to grasp in cybersecurity.
+
+MAC address
+ - Decice on a network will all have a physical network interface, whihc is a microchip board found on the device's motherboard. 
+This network interfface is assigned a unique address at the factory it was built at, called a MAC (Media Access Control) address. The MAC address is a sixteen-character hexadecimal number(a base
+sixteen numbering ststem used in computing to represent numbers) split into two's and separated by a colon, for example 14:c3:F0:95:ac:2s.
+The firs six characters repesent the company that made the network interface, and the last six is a unique number.
+[MAC address can be faked or "spoofed"] 
+
+What is the key term for devices that are connected together?
+ - Network
+
+What does the term "IP" stand for?
+ - Internet Protocol
+
+What is each section of an IP address called?
+ - Octet
+
+How many sections (in digits) does an IP address have?
+ - 4
+
+What does the ter "MAC" stand for?
+ - Media Access Control
+
+
+What is the Internet?
+The Internet is one giant network that consists of many, many small networks within itself. 
+Using our example from the previous task, lets now imagine that Alice made some new friends named Zayon and Toby that she wants to introduce to Bob and Jim.
+The problem is that Alice is the onlu person who speaks the same language as Zayn and Toby.
+
+As previously stated, the Internet is made up of many small networks all joined together. 
+These small networks are called private networks, where networks connecting these small networks are called public networks -- or the Internet! So, to recap, a network can be one of two types:
+A private network
+A public network
+
+Who invented the World Wide Web?
+ -  Tim Berners-Lee
+
+
+
