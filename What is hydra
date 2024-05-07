@@ -1,0 +1,13 @@
+Hydra is a brute force online password craking prgram, a quick system login passowrd "hacking" tool.
+Hydra can run through a list and "brute force" some authenticaiton services.Imagine trying to manually guess someone’s password on a particular service (SSH, Web Application Form, FTP or SNMP) 
+
+For more information on the options of each protocol in Hydra, you can check the Kali Hydra tool page.
+This shows the importance of using a strong passdword; if your password is common, doesn't contain special characters and is not above eight characters, it will be prone to be guessed.
+A one-hundred-million-password list contains common passwords, so when an out-of-the-box application uses an easy password to log in, change it from the default!
+CCTV cameras and web frameworks often use admin:password as the default login credentials, which is obviously not strong enoguh.
+
+Installing Hydra
+Hydra is already installed on the AttackBox. You can access it by clicking on the Start AttackBox button.
+
+If you prefer to use the in-browser Kali machine, Hydra also comes pre-installed, as is the case with all Kali distributions. You can access it by selecting Use Kali Linux and clicking on Start Kali Linux button.
+However, you can check its official repositories if you prefer to use another Linux distribution. For instance, you can install Hydra on an Ubuntu or Fedora system by executing apt install hydra or dnf install hydra. Furthermore, you can download it from its official THC-Hydra repository.
