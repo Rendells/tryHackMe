@@ -11,3 +11,11 @@ Hydra is already installed on the AttackBox. You can access it by clicking on th
 
 If you prefer to use the in-browser Kali machine, Hydra also comes pre-installed, as is the case with all Kali distributions. You can access it by selecting Use Kali Linux and clicking on Start Kali Linux button.
 However, you can check its official repositories if you prefer to use another Linux distribution. For instance, you can install Hydra on an Ubuntu or Fedora system by executing apt install hydra or dnf install hydra. Furthermore, you can download it from its official THC-Hydra repository.
+
+05-11-24
+Deploy the machine attached to this task, then navigate to http://MACHINE_IP (this machine can take up to 3 minutes to boot)
+Hydra Commands
+- The options we pass into Hydra depend on which service (protocol) we’re attacking. For example, if we wanted to brute force FTP with the username being user and a password list being passlist.txt, we’d use the following command:
+hydra -l user -P passlist.txt ftp://MACHINE_IP
+For this deployed machine, here are the commands to use Hydra on SSH and a web form (POST method).
+SSH
