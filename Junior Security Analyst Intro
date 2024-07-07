@@ -12,3 +12,18 @@ Create tickets and escalate the security incidents to the Tier 2 and Team Lead i
 
 07-06-24
 Stop slacking
+
+A day In the life of a Junior (Associate) Security Analyst
+To understand the job responsibilities for a Junior (associe) security analyst, let us first show you waht a day in the life of the junior security anbalyast looks like and why this is an exiting career journey.
+
+To be in the fonrtline is not always easy and can be very challenging as you will be woeking with various log sources from different tol,.s that we will walk you through in this path. You will get a chance to monitor the network traffic, include IPS(intrusion Prevention Systems) and IDS
+(Intrusion Detection System) alerts, suspicious emails, extract the forensics data to analyze and detect the potential attacts, use open-source intelligence to help yo make the approopriate decisions on the alerts.
+One of the most exciting and rewarding this is when you are finsihed working on an icident and have managed to remediate the threat. Incident Response might take hours, days, or weeks;
+it all depends on the sacel of the attack: did the attacker manage to exfiltrate the data? How much data does the attacker manage to exfiltrate? Did the attacker attempt to pivot into other hosts? There are many questions to ask and a lot of detection, contaiment, and remdiation to do.
+We will walk you through some fundamental knowledge that every junior (associate) security analyst needs to know to become a successful nextwork defender.
+The first thing almost every Junior (associate) security analyst does on their shift is to look at the tickets to see if any alers got generated.
+
+221.181.185.159 - THM{UNTIL-WE-MEET-AGAIN}
+There are many open-source databases out there like AbuseIPDB, Cisco Talos Intelligence, where you can perform a reputation and location check for the IP address. Most security analysts use these tools to aid them with alert investigations. You can also make the Internet safer by reporting the malicious IPs, for example, on AbuseIPDB.
+We shouldn't worry too much if it was a failed authentication attempt, but you probably noticed the successful authentication attempt from the malicious IP address. Let's declare a small incident event and escalate it. There is some great staff working at the company, but you wouldn't want to escalate this to the wrong person who is not in charge of your team or department.
+
