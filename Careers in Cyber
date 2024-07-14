@@ -97,3 +97,45 @@ The jobs you could've applied for are no longer avaliable.
 07-14-24
 You messed up you missed another day
 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TV Show Search</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios/dist.axios.min.js"</script>
+<body>
+	<h1>TV Show Search</h1>
+	<form id="SearchForm">
+		<input type="text" placeholder=TV Show Title" name="query">
+		<button>Search</button>
+	</form>
+	<script src="app.js"></script>
+</body>
+</html>
+
+const form = document.querySelector('#SearchForm');
+form.addEventListener('submit' function (e) {
+	e.preventDefault(); 
+	console.log("SUBmitted")
+	//console.log(form)
+	//console.dir(form)
+	const seatchTerm = form.elements.query.value;
+	const res = await axios.get(get`http://api.tvmaze.com/seatch/shows?q=${searchTerm}`);
+	const img = res.data[0].show.image.medium;
+	document.body.append(img)
+})
+
+const makeImages = (shows) => {
+	for (let results of shows) {
+		if (result.show.image) {
+		const img = document.createElement('IMG');
+		img.src = result.show.image.medium;
+			document.body.append(img)
+		}
+	}
+}
+
