@@ -142,3 +142,22 @@ Don't stop keep going man, even though your car got broken into
 
 07-17-24
 Still need to keep going more action then saying!
+
+07-22-24
+Crowdstrike issues
+Summary
+CrowdStrike is aware of reports of crashes on Windows hosts related to the Falcon Sensor. 
+Details
+Symptoms include hosts experiencing a bugcheck\blue screen error related to the Falcon Sensor. 
+Current Action
+CrowdStrike Engineering has identified a content deployment related to this issue and reverted those changes.
+If hosts are still crashing and unable to stay online to receive the Channel File Changes, the following steps can be used to workaround this issue: 
+Workaround Steps:
+1. Boot Windows into Safe Mode or the Windows Recovery Environment
+2. Navigate to the C:\Windows\System32\drivers\CrowdStrike directory
+3. Locate the file matching “C-00000291*.sys”, and delete it. 
+4. Boot the host normally. 
+Latest Updates
+2024-07-19 05:30 AM UTC | Tech Alert Published. 
+2024-07-19 06:30 AM UTC | Updated and added workaround details.
+
