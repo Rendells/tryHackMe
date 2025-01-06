@@ -66,11 +66,22 @@ Punycode attack
 Provide the redirected website for the shortened URL using a preview: https://tinyurl.com/bw7t8p4u
 https://tryhackme.com/
 
+Host Artifacts (Annoying)
 A process named regidle.exe makes a POST request to an IP address based in the United States (US) on port 8080. What is the IP address?
 96.126.101.6
-
 The actor drops a malicious executable (EXE). What is the name of this executable?
 G_jugk.exe
-
 Look at this report by Virustotal. How many vendors determine this host to be malicious?
 9
+
+Network Artifacts (Annoying)
+A network artifact can be a user-agent string, C2 information, or URI patterns followed by the HTTP POST requests.An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by RFC2616 as the request-header field that contains the information about the user agent originating the request.
+Network artifacts can be detected in Wireshark PCAPs (file that contains the packet data of a network) by using a network protocol analyzer such as TShark or exploring IDS (Intrusion Detection System) logging from a source such as Snort.
+Let's use TShark to filter out the User-Agent strings by using the following command: tshark --Y http.request -T fields -e http.host -e http.user_agent -r analysis_file.pcap 
+If you can detect the custom User-Agent strings that the attacker is using, you might be able to block them, creating more obstacles and making their attempt to compromise the network more annoying.
+
+What browser uses the User-Agent string shown in the screenshot above?
+Internet Explorer
+
+How many POST request ar ein the screenshot from the pcap file?
+6
