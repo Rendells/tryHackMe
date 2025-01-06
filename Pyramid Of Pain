@@ -66,3 +66,11 @@ Punycode attack
 Provide the redirected website for the shortened URL using a preview: https://tinyurl.com/bw7t8p4u
 https://tryhackme.com/
 
+A process named regidle.exe makes a POST request to an IP address based in the United States (US) on port 8080. What is the IP address?
+96.126.101.6
+
+The actor drops a malicious executable (EXE). What is the name of this executable?
+G_jugk.exe
+
+Look at this report by Virustotal. How many vendors determine this host to be malicious?
+9
