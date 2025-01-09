@@ -85,3 +85,38 @@ Internet Explorer
 
 How many POST request ar ein the screenshot from the pcap file?
 6
+
+Attackers would use the utilities to create malicious macro documents (maldocs) for spearphishing attempts, a backdoor that can be used to establish C2 (Command and Control Infrastructure), any custom .EXE, and .DLL files, payloads, or password crackers.
+Antivirus signatures, detection rules, and YARA rules can be great weapons for you to use against attackers at this stage.
+MalwareBazaar and Malshare are good resources to provide you with access to the samples, malicious feeds, and YARA results - these all can be very helpful when it comes to threat hunting and incident response. 
+For detection rules, SOC Prime Threat Detection Marketplace is a great platform, where security professionals share their detection rules for different kinds of threats including the latest CVE's that are being exploited in the wild by adversaries. 
+Fuzzy hashing is also a strong weapon against the attacker's tools. Fuzzy hashing helps you to perform similarity analysis - match two files with minor differences based on the fuzzy hash values. One of the examples of fuzzy hashing is the usage of SSDeep; on the SSDeep official website, you can also find the complete explanation for fuzzy hashing. 
+
+Provide the method used to determine similarity between the files 
+Fuzzy Hashinh
+
+Provide the alternative name for fuzzy hashes without the abbreviation 
+context triggered piecewise hashes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
