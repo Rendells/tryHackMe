@@ -98,15 +98,18 @@ Fuzzy Hashinh
 Provide the alternative name for fuzzy hashes without the abbreviation 
 context triggered piecewise hashes
 
+TTPs stands for Tactics, Techniques & Procedures. This includes the whole MITRE ATT&CK Matrix, which means all the steps taken by an adversary to achieve his goal, starting from phishing attempts to persistence and data exfiltration. 
+If you can detect and respond to the TTPs quickly, you leave the adversaries almost no chance to fight back. 
+For, example if you could detect a Pass-the-Hash attack using Windows Event Log Monitoring and remediate it, you would be able to find the compromised host very quickly and stop the lateral movement inside your network
+At this point, the attacker would have two options:
+Go back, do more research and training, reconfigure their custom tools
+Give up and find another target
+Option 2 definitely sounds less time and resource-consuming.
 
-
-
-
-
-
-
-
-
+Navigate to ATT&CK Matrix webpage. How many techniques fall under the Exfiltration category?
+9
+Chimera is a China-based hacking group that has been active since 2018. What is the name of the commercial, remote access tool they use for C2 beacons and data exfiltration?
+Cobalt Strike
 
 
 
