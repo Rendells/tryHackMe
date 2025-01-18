@@ -17,5 +17,19 @@ Actions on Objectives
 Reconnaissance is discovering and collecting information on the system and the victim. The reconnaissance phase is the planning phase for the adversaries.
 OSINT (Open-Source Intelligence) also falls under reconnaissance. OSINT is the first step an attacker needs to complete to carry out the further phases of an attack. The attacker needs to study the victim by collecting every available piece of information on the company and its employees, such as the company's size, email addresses, phone numbers from publicly available resources to determine the best target for the attack. 
 
+OSINT (Open-Source Intelligence) also falls under reconnaissance. OSINT is the first step an attacker needs to complete to carry out the further phases of an attack.
+The attacker needs to study the victim by collecting every available piece of information on the company and its employees, such as the company's size, email addresses, phone numbers from publicly available resources to determine the best target for the attack. 
+Email harvesting is the process of obtaining email addressesfrom public, paid, or free services.
+The attacker will have a big arsenal of tools available for reconnaissance purposes. Here are some of them:
+
+theHarvester - other than gathering emails, this tool is also capable of gathering names, subdomains, IPs, and URLs using multiple public data sources 
+Hunter.io - this is  an email hunting tool that will let you obtain contact information associated with the domain
+OSINT Framework - OSINT Framework provides the collection of OSINT tools based on various categories
+
+What is the name of the Intel Gathering Tool that is a web-based interface to the common tools and resources for open-source intelligence?
+OSINT Framework 
+
+What is the definition for the email gathering process during the stage of reconnaissance?
+Email Harvesting
 
 
